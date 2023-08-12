@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulários</title>
+</head>
+<body>
+ 
+    <form action="Destino do Formulário" method="post">
+
+        <div>
+            <label for="nome_player"> Nome : </label>
+            <input id="nome_player" type="text" name="nome"/>
+        </div>
+        <div>
+            <label for="idade_player"> Idade : </label>
+            <input id="idade_player" type="number" name="idade"/>
+        </div>
+        <div>
+            <label for="descricao_player"> Descrição : </label>
+            <textarea id="descricao_player" name="descricao" cols="15" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="cor_player"> Cor : </label>
+            <input id="cor_player" type="color" name="cor"/>
+        </div>
+        <div>
+            <label for="check_player"> Checkbox : </label>
+            <input id="check_player" type="checkbox" name="checkbox"/>
+        </div>
+        <div>
+            <label for="select_player"> Select : </label>
+            <select id="select_player" name="select">
+                <option selected value="1">GTA V</option>
+                <option value="2">FC 24</option>
+                <option value="3">RED DEAD</option>
+            </select>
+        </div>
+        <div>
+            <label for="dia_player"> Data : </label>
+            <input id="dia_player" type="date" name="dia"/>
+        </div>
+        <div>
+            <label for="senha_player"> Senha : </label>
+            <input id="senha_player" type="password" name="senha"/>
+        </div>
+        <button type="submit">Botão para enviar</button>
+
+    </form>
+    
+</body>
+</html>
