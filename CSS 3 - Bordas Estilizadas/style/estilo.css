@@ -1,0 +1,15 @@
+div {
+    height: 200px;
+    width: 200px;
+    border-radius: 125px 125px 123px 124px ;
+    -moz-border-radius: 125px 125px 123px 124px ;
+    -webkit-border-radius: 125px 125px 123px 124px ;
+    border-color: black;
+}
+ /*
+    Geradores de borders 
+    https://border-radius.com/
+
+    https://www.jonathanmoreira.com.br/css-border-radius-generator/
+
+ */

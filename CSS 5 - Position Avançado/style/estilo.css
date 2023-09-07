@@ -1,0 +1,22 @@
+#cm {
+    height: auto;
+    width: auto;
+    border: 1px solid #f00;
+    background-color: #00f;
+    position: fixed;
+    bottom: 20%;
+    top: 20%;
+    left: 0%;
+    right: 20%;
+}
+#cf {
+    position: absolute;
+    border: 2px solid #fff;
+    background-color: black;
+
+
+    bottom: 0%;
+    height: 50px;
+    left: 0%;
+    right: 0%;
+}

@@ -1,0 +1,25 @@
+#cm {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #f00;
+    background-color: #00f;
+
+    /* Position */
+    position: fixed; 
+
+    
+    top: 5px;
+    left: 5px;
+/*    right:  direita; 
+    bottom: ; */
+}
+
+/*
+Posso usar :
+
+top e left
+top e right
+bottom e left
+bottom e right
+
+*/
